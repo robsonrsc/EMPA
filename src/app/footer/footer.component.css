@@ -1,5 +1,13 @@
-footer {
+.footer__page{
 
-    background-color: aqua;
+    background-color: black;
+    justify-content: ;
+    display: ;
     border: 15px;
+}
+
+.school__map{
+
+    height: 100%;
+    width: 100%;
 }
