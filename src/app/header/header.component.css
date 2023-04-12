@@ -48,9 +48,22 @@ h2 {
     padding: 20px;    
 }
 
-.image__capa{
+.image__icons{
 
     width: 50%;
-    
+    justify-content: flex-start;
+    display: block;
+    width: min-content;
+    justify-content: space-between;
+    padding: 0;
+
+
+}
+
+.img-fluid{
+
+    width: 100%;
+    height: 100%;
+    position: relative;
 
 }
