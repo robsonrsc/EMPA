@@ -9,7 +9,12 @@ import { EMPAComponent } from './empa/empa.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { InstrumentosComponent } from './instrumentos/instrumentos.component';
 import { ProfessoresComponent } from './professores/professores.component';
-import { ContatoComponent } from './contato/contato.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatSnackBar, MatSnackBarModule} from "@angular/material/snack-bar";
+import { contatocomponent } from './contato/contato.component';
+
+
 
 @NgModule({
   declarations: [
@@ -20,11 +25,16 @@ import { ContatoComponent } from './contato/contato.component';
     SobreComponent,
     InstrumentosComponent,
     ProfessoresComponent,
-    ContatoComponent
+    contatocomponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    BrowserAnimationsModule,
+    MatSnackBarModule,
+    ReactiveFormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
